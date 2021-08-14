@@ -1,0 +1,31 @@
+.content{
+    background: none;
+}
+
+.content-list{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 390px;
+
+}
+
+.content-list li{
+    color: black;
+    font-size: 12px;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.content-list li:hover{
+    color: #f36f36;
+    text-decoration: underline;
+}
+
